@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div>
+      <h1 :text="$site.title"></h1>
+      <p>
+        // TODO: explain what your devlog is about
+        <br>
+        <b>Note how the first entry is missing as it's past the cutoff point</b>
+      </p>
+      <p>
+        This page is also available as an
+        <a href="/devlog/rss.xml">RSS Feed</a>
+      </p>
+    </div>
+    <div :loop="$page.contentSections()">
+      <ctx :if="$loop.idx.gt(2).not()" :html="$loop.it.html()">
+      </ctx>
+    </div>
+  </body>
+</html>

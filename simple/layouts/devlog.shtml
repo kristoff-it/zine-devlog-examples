@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div>
+      <p>
+        // TODO: explain what your devlog is about
+      </p>
+      <p>
+        This page is also available as an
+        <a href="/devlog/rss.xml">RSS Feed</a>
+      </p>
+    </div>
+    <div :html="$page.content()">
+    </div>
+  </body>
+</html>

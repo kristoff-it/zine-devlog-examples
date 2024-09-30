@@ -1,0 +1,22 @@
+---
+.title = "Devlog",
+.date = @date("1989-01-01T00:00:00"),
+.author = "Your Name",
+.layout = "devlog.shtml",
+// When a year gets archived, we stop generating an RSS feed for it.
+// .alternatives = [{
+// 	.layout = "devlog.xml", 
+// 	.output = "rss.xml",
+// }],
+.draft = false,
+---
+
+
+# [Another entry]($section.id("1989-01-03"))
+Old.
+
+# [Second entry]($section.id("1989-01-02"))
+Ooooold.
+
+# [First entry]($section.id("1989-01-01"))
+Extra old!

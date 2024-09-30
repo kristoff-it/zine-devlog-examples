@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div>
+      <h1 :text="$site.title"></h1>
+      <p>
+        // TODO: explain what your devlog is about
+      </p>
+      <p>
+        See also
+        <a href="/">the archive</a>
+      </p>
+    </div>
+    <div :html="$page.content()">
+    </div>
+  </body>
+</html>

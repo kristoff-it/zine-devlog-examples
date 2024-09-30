@@ -1,0 +1,28 @@
+---
+.title = "Devlog",
+.date = @date("1990-01-01T00:00:00"),
+.author = "Your Name",
+.layout = "devlog.shtml",
+.alternatives = [{
+	.layout = "devlog.xml", 
+	// this is the output path of the generated xml file
+	.output = "devlog/rss.xml",
+}],
+.draft = false,
+---
+
+
+# [Another entry]($section.id("1990-01-03"))
+Another entry.
+
+# [Second entry]($section.id("1990-01-02"))
+One more! I can also use **all** the syntax.
+
+```
+also codeblocks	
+```
+
+And add more paragraphs of course.
+
+# [First entry]($section.id("1990-01-01"))
+This is the first entry of this devlog!

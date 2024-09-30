@@ -1,0 +1,8 @@
+---
+.title = "Devlog Archive",
+.date = @date("1990-01-01T00:00:00"),
+.author = "Your Name",
+.layout = "archive.shtml",
+.draft = false,
+---
+All entries are categorized by year.

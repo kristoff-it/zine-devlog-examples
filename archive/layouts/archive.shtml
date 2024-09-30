@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Devlog Archive</h1>
+    <div :html="$page.content()"></div>
+    <ul :loop="$page.subpages()">
+      <li>
+        <a href="$loop.it.link()">
+          <span :text="$loop.it.date.format('2006')"></span>
+        </a>
+        <ctx :if="$loop.first">
+          (latest, also available as an
+          <a href="/devlog/rss.xml">RSS Feed</a>)
+        </ctx>
+      </li>
+    </ul>
+  </body>
+</html>
