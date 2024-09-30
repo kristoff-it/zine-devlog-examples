@@ -1,7 +1,7 @@
 # Zine Devlog Examples
 A few examples of how to setup a Devlog with Zine.
 
-Read the blog post: [Critical Social Infrastructure for the Zig Community](https://kristoff.it/blog/critical-social-infrastructure/)
+Read the blog post: [Critical Social Infrastructure for Zig Communities](https://kristoff.it/blog/critical-social-infrastructure/)
 
 
 ## The examples 
