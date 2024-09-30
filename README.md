@@ -18,7 +18,7 @@ The three examples differ in the following manner:
   on age or other constraints (Zine might need to gain a couple more builtin functions
   for certain usecases, if you encounter limitations in Zine reach out and I'll
   try to unblock you).
-- `archive/` shows a setup where, by pre-sharding by year, you can easily archive
+- (recommended) `archive/` shows a setup where, by pre-sharding by year, you can easily archive
   old entries to avoid creating an endlessly growing page without losing content.
 
 ## Usage
